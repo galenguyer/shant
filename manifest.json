@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Shant",
+    "version": "1.0",
+    "description": "I'm a software",
+    "icons": {
+        "48": "icons/48.png",
+        "96": "icons/96.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://sauravmakes.tech/*"
+            ],
+            "js": [
+                "shant.js"
+            ]
+        }
+    ]
+}
